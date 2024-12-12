@@ -1,0 +1,87 @@
+.body{
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+:root {
+    --bg-darkBlue: rgba(13, 7, 52, 1);
+    --color-darkPurple: #ae00ff;
+    --color-lightPurple:rgba(228, 214, 243, 1);
+    --color-lightWight: white;
+}
+
+body {
+    color: var(--color-lightPurple);
+    text-align: center;
+    /* font-family: Arial, sans-serif; */
+    background: linear-gradient(to bottom, var(--bg-darkBlue), #2a044a); 
+    color: var(--color-lightPurple);
+}
+
+.btn-custom{
+    background: transparent;
+    color: var(--color-darkPurple);
+    border: 2px solid var(--color-darkPurple);
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background: var(--color-darkPurple);
+    color: var(--color-lightPurple);
+}
+
+a {
+    color: var(--color-darkPurple);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.fa-apple, .fa-facebook  {
+    font-size: 75px;
+    color: antiquewhite;
+    padding: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-apple:hover {
+    color: silver;
+    transform: scale(1.2);
+}
+
+.fa-facebook:hover {
+    color: #1877f2 ;
+    transform: scale(1.2);
+}
+
+.fa-user-circle{
+    color: var(--color-lightPurple);
+}
+
+.logo-text{
+    color: var(--color-lightPurple);
+}
+
+.card-body{
+    color: aliceblue;
+    background: linear-gradient(to bottom, #a282f8, #666);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+  }
+
+.btn-primary {
+    border: none;
+    background-color: var(--color-darkPurple);
+}
+
+.btn-primary:hover{
+    background-color: #4b0981;
+}
+
+.saldo-olho {
+    
+}
